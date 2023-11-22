@@ -1,0 +1,55 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+h2{
+  padding: 10px ;
+  background-color: lightgray;
+}
+
+p{
+  font-size: 30px;
+  margin: 10px;
+  text-transform: uppercase;
+}
+
+
+#bold{
+  font-weight: bold;
+}
+
+#italic{
+  font-style: italic;
+}
+
+#underline{
+  text-decoration: underline;
+}
+
+#linethrough{
+  text-decoration: line-through;
+}
+
+
+#gradient{
+  font-weight: bold;
+  background: linear-gradient(45deg , red,blue,green);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#shadow{
+  font-weight: bold;
+  text-shadow: 3px 1px 5px black;
+}
+
+#outline{
+  text-shadow: 1px 1px 2px rgb(255, 0, 0);
+
+}
+
+#stroke{
+  -webkit-text-stroke: 1px red;
+  color: transparent;
+}
